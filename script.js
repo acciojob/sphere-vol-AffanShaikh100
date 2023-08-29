@@ -7,6 +7,7 @@ function volume_sphere() {
 	let valuetinp = parseInt(inputr);
 	let ans = (4/3) * Math.PI * Math.pow(valuetinp,3);
 	volume.value = ans;
+	return false;
 } 
 
 window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
